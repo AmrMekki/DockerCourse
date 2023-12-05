@@ -160,7 +160,7 @@ docker run --name myapp_c1 myapp
 > Open in browser
 Doesn't work ❌
 
-> Stop container
+### Stop container
 1- Open new terminal
 2- 
 ```
