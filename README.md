@@ -162,10 +162,12 @@ Doesn't work ❌
 
 ### Stop container
 1- Open new terminal
+
 2- 
 ```
 docker ps #shows running containers
 ```
+
 3-
 ```
 docker stop myapp_c1
