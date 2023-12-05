@@ -65,7 +65,7 @@ Docker Hub:
 - containes premade parent images
 Example:
 For node: search for node parent image
-#From docker hub:
+### From docker hub:
 - put this in terminal (PowerShell)
 ```
 docker pull node
@@ -74,7 +74,7 @@ docker pull node
 > if we don't specify the default will be pulled
 - After it is downloaded you can see the image in your docker desktop
 
-#This image can be run:
+### This image can be run:
 - do nothing with additional options
 - container is created for node:
 - can `enter cli` `stop` `restart` `delete` 
@@ -89,7 +89,7 @@ API Folder
 - `app.js` (has simple express app listening on port 4000)
 - has dependencies in `package.json`
 
-###Normally we would write
+### Normally we would write
 ```
 npm install
 npm run
@@ -148,7 +148,7 @@ RUN (green icon)
 > Open in browser
 We can see the JSON data ✔
 
-###RUN FROM TERMINAL
+### RUN FROM TERMINAL
 ```
 docker images
 ```
@@ -161,16 +161,16 @@ docker run --name myapp_c1 myapp
 Doesn't work ❌
 
 > Stop container
-  1- Open new terminal
-  2- 
-  ```
-  docker ps #shows running containers
-  ```
-  3-
-  ```
-  docker stop myapp_c1
-  ```
-  4- In older terminal you can see the process is stopped
+1- Open new terminal
+2- 
+```
+docker ps #shows running containers
+```
+3-
+```
+docker stop myapp_c1
+```
+4- In older terminal you can see the process is stopped
 
 > Run new container with port
 ```
@@ -180,11 +180,11 @@ You can run in detached mode `-d` so we can use terminal later
 > Open in browser
 We can see the JSON data ✔
 
-###STOP CONTAINER
+### STOP CONTAINER
 ```
 docker stop myapp_c2
 ```
-###RE-START CONTAINER
+### RE-START CONTAINER
 ```
 docker start myapp_c2
 ```
